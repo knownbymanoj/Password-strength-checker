@@ -1,5 +1,5 @@
 # Password-strength-checker
-                                                                                 Summary
+Summary
 A python file which checks your password if it has been breached or safe to use securly without trusting website's https connection and also send only 5 hexadecimal characters of hash to server to makesure server is not compromised and get checks done on your own personal computer withoyt trusting any other device.
 
 In Detail:
