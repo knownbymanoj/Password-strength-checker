@@ -3,6 +3,26 @@ Summary:
 
 A python file which checks your password if it has been breached or safe to use securely without trusting website's https connection and also send only 5 hexadecimal characters of hash to server to make sure server is not compromised and get checks done on your own personal computer without trusting any other device.
 
+INPUT:
+
+python passcheck.py Dragon password qwerty Sample123 Andrew#6218
+
+
+OUTPUT:
+
+Dragon was found 18384 times...you should probably change your password
+
+password was found 3861493 times...you should probably change your password
+
+qwerty was found 3993346 times...you should probably change your password
+
+Sample123 was found 53904 times...you should probably change your password
+
+Andrew#6218 was NOT found. Carry on!
+Done!
+
+(*) NOTE : Inputs must be given in the command line and in the directory where your python file is present.Based on your python version you can use python/python3
+
 In Detail:
 
 Step 1: User runs passcheck.py along with his desired number of passwords which can be given as a input separated by spaces between them and then click enter to run the program in the command line.
