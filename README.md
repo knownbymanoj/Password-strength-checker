@@ -1,8 +1,10 @@
 # Password-strength-checker
-Summary
-A python file which checks your password if it has been breached or safe to use securly without trusting website's https connection and also send only 5 hexadecimal characters of hash to server to makesure server is not compromised and get checks done on your own personal computer withoyt trusting any other device.
+Summary:
+
+A python file which checks your password if it has been breached or safe to use securely without trusting website's https connection and also send only 5 hexadecimal characters of hash to server to make sure server is not compromised and get checks done on your own personal computer without trusting any other device.
 
 In Detail:
+
 Step 1: User runs passcheck.py along with his desired number of passwords which can be given as a input separated by spaces between them and then click enter to run the program in the command line.
 
 Step 2: Each password is sent to pwned api check function and are checked if they are found in any security breaches.
